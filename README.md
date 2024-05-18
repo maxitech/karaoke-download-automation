@@ -3,7 +3,7 @@ This is a utility script that automates a workflow for downloading individual tr
 This workflow is specific to how I use this service. If you want to change it you'll have to make your
 own modifications.
 
-It will solo & download each individual track separately using a scratch version of Chrome that will be 
+It will solo & download each individual track separately using a scratch version of Chrome that will be
 downloaded automatically upon first run.
 
 ## Requirements
@@ -33,8 +33,8 @@ Then run `npm run start <song url>`.
 ## Options
 
 - `-d <path>` - Change the download location
--  `-h` or `--headless` - Use headless mode, which hides the UI.
--  `-p <pitch offset>` - Change the pitch of the downloaded tracks (-1 to go down half step, 1 to go up half step, etc)
+- `-h` or `--headless` - Use headless mode, which hides the UI.
+- `-p <pitch offset>` - Change the pitch of the downloaded tracks (-1 to go down half step, 1 to go up half step, etc)
 
 Using headless mode may make it less clear what is going on behind the scenes, so I suggest testing it out
 in the regular mode first.
@@ -56,6 +56,8 @@ And Karaoke Version, if you're listening: We'd love if this was fully supported 
 ## Changelog
 
 ## 0.2
+
+## For now these shortcuts are replaced by npm run start <urls.txt>
 
 - Fixed usage of karaoke-version.co.uk
 - Added `-d` to change download path
